@@ -1,0 +1,13 @@
+#users
+passwd
+sudo passwd <user>
+sudo passwd <user> -d
+sudo adduser <user>
+sudo visudo
+<user> ALL=(ALL:ALL) ALL
+<user>   ALL = NOPASSWD: ALL
+update-alternatives --set editor /usr/bin/vim
+
+sudo userdel -r <user>
+
+/etc/sudoers usermod visudo
