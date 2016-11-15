@@ -9,3 +9,5 @@ else
         sudo cp /etc/network/interfaces-adhoc /etc/network/interfaces              
                                                                                    
 fi  
+
+#ssh-keygen -R <host>
