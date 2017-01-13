@@ -11,3 +11,6 @@ update-alternatives --set editor /usr/bin/vim
 sudo userdel -r <user>
 
 /etc/sudoers usermod visudo
+
+netsh wlan show profiles
+netsh wlan show profile <ssid>
