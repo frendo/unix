@@ -12,8 +12,14 @@ sudo userdel -r <user>
 
 /etc/sudoers usermod visudo
 
+windows:
 netsh wlan show profiles
 netsh wlan show profile <ssid>
+
+vim to clipboard:
+V
+:w !pbcopy
+:%w !pbcopy
 
 pentest:
 install uniscan
@@ -41,7 +47,12 @@ ruby wpscan.rb --url http://yourwebsite.com --enumerate vt
 users
 ruby wpscan.rb --url http://yourwebsite.com --enumerate u
 
+ruby wpscan.rb --url http://yourwebsite.com --wordlist passwords.txt threads 50 --username <>
+
 webshells
 apt install webshells
+update ip and add port
+wp theme update php
 
-ruby wpscan.rb --url http://yourwebsite.com --wordlist passwords.txt threads 50 --username <>
+nc -lvnp <port>
+
