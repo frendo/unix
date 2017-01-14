@@ -56,3 +56,25 @@ wp theme update php
 
 nc -lvnp <port>
 
+find users:
+cd /etc
+cat passwd
+
+cd /home/<user>
+
+hash-identifier
+apt install hash-identifier
+hash-identifier <hash>
+
+hashcat
+apt install hashcat
+
+hashcat -a 0 -m 0 <hash file> <wordlist file>
+
+python -c 'import pty; pty.spawn("/bin/sh")'
+
+su <name>
+password:
+
+
+
