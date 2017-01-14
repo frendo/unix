@@ -14,3 +14,13 @@ sudo userdel -r <user>
 
 netsh wlan show profiles
 netsh wlan show profile <ssid>
+
+pentest:
+install uniscan
+uniscan -h
+uniscan -u <url/> -qweds
+wget ...
+file <name>
+
+wordpress
+wpscan --help
