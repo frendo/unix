@@ -22,5 +22,26 @@ uniscan -u <url/> -qweds
 wget ...
 file <name>
 
+wc -w
+sort -u > file.txt
+
 wordpress
+
+update:
+cd wpscan
+
+ruby wpscan.rb --update
+find . -type f -name 'wpscan.rb'
 wpscan --help
+
+plugins
+ruby wpscan.rb --url http://yourwebsite.com --enumerate vp
+themes
+ruby wpscan.rb --url http://yourwebsite.com --enumerate vt
+users
+ruby wpscan.rb --url http://yourwebsite.com --enumerate u
+
+webshells
+apt install webshells
+
+ruby wpscan.rb --url http://yourwebsite.com --wordlist passwords.txt threads 50 --username <>
