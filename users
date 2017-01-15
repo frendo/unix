@@ -82,3 +82,9 @@ find / -user <name> -perm -4000
 nmap --interactive
 !sh
 
+netdiscover
+apt install netdiscover
+
+echo 2323 | base64 --decode
+
+
