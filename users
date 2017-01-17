@@ -105,6 +105,11 @@ ftp
 open <ip> <port>
 mget
 
+strings - search binary file for strings
 
+echo $PATH
+export PATH=/<>:.....
 
+echo '/bin/bash' > /tmp/cat
+chmod +x /tmp/cat
 
