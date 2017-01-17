@@ -45,7 +45,7 @@ ruby wpscan.rb --url http://yourwebsite.com --enumerate vp
 themes
 ruby wpscan.rb --url http://yourwebsite.com --enumerate vt
 users
-ruby wpscan.rb --url http://yourwebsite.com --enumerate u
+ruby wpscan.rb --url http://yourwebsite.com --enumerate u --proxy_host <ip> --proxy_port port
 
 ruby wpscan.rb --url http://yourwebsite.com --wordlist passwords.txt threads 50 --username <>
 
@@ -86,5 +86,25 @@ netdiscover
 apt install netdiscover
 
 echo 2323 | base64 --decode
+
+nikto
+apt install nikto
+nikto -host <ip> -useproxy <ip>
+
+cewl password from website
+apt install cewl
+cewl --proxy_host <ip> --proxy_port port url -w filename
+
+burp suite
+
+dirb webscanner
+apt install dirb
+
+ftp
+
+open <ip> <port>
+mget
+
+
 
 
